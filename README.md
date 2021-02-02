@@ -12,7 +12,7 @@ Link da aplicação em funcionamento -> https://powerful-taiga-99537.herokuapp.c
 
 ## Abaixo um pouco do descritivo da parte de deploy:
 
-###Subir o projeto no Heroku
+### Subir o projeto no Heroku
 
 > Instalar o Heroku para acesso ao terminal
 
@@ -20,10 +20,9 @@ Link da aplicação em funcionamento -> https://powerful-taiga-99537.herokuapp.c
 
 > web: node app.js
 
-> Isso vai informar para o Heroku que ele vai rodar em NODE e o nome do arquivo inicial é o app.js("podendo ser qualquer um que inicialize 
->seu projeto")
+> Isso vai informar para o Heroku que ele vai rodar em NODE e o nome do arquivo inicial é o app.js("podendo ser qualquer um que inicialize seu projeto")
 
-> Posteriormente seguir dentro do terminal de sua preferencia com:
+#### Posteriormente seguir dentro do terminal de sua preferencia com:
 
 > git init -> incializa
 
@@ -35,7 +34,7 @@ Link da aplicação em funcionamento -> https://powerful-taiga-99537.herokuapp.c
 
 > Feito isso vai informar uma mensagem com um link ao seu projeto -> https://powerful-taiga-99537.herokuapp.com/
 
->> ainda dentro da pasta do seu projeto execute:
+#### Ainda dentro da pasta do seu projeto execute:
 
 > git push heroku master -> vai construir sua aplicação dentro do link e é só acessar ele novamente depois de alguns minutos,pois o heroku pode demorar um tempo para finalizar tudo e se tudo estiver certo seu site vai estar funcionando lindamente
 
@@ -44,7 +43,9 @@ Link da aplicação em funcionamento -> https://powerful-taiga-99537.herokuapp.c
 ### Aaah eu fiz alguma alteração e agora? 
 
 > git add .  ("git add tudo")
+
 > git commit -m "mensagem"
+
 > git push heroku master
 
 #### Feito isso, aguarde novamente um tempo e de um refresh na sua pagina
