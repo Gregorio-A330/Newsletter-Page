@@ -1,0 +1,36 @@
+Subir o projeto no Heroku
+
+criar um arquivo chamado Procfile e inicialiar ele com os parametros
+
+web: node app.js
+
+isso vai informar que ele vai rodar em node e o nome do arquivo inicial é o app.js("podendo ser qualquer um que inicialize 
+seu projeto")
+
+Posteriormente seguir dentro do terminal com:
+
+git init -> incializa
+
+git add . -> para adicionar todos os arquivos dentro da pasta do projeto
+
+git commit -m "sua mensagem de commit" -> feito isso ele criou um "save point" e pode dar rollback caso algo tenha dado errado
+
+heroku create -> vai criar o app, mas antes verificar se está logado no heroku pelo terminal senão vai dar erro
+
+feito isso vai informar uma mensagem com um link ao seu projeto -> https://powerful-taiga-99537.herokuapp.com/
+
+ainda dentro da pasta do seu projeto execute:
+
+git push heroku master -> vai construir sua aplicação dentro do link só acessar ele novamente depois de alguns minutos,
+
+porque o heroku pode demorar um tempo para finalizar tudo e se tudo estiver certo seu site vai estar funcionando lindamente
+
+
+
+Aaah eu fiz alguma alteração e agora? 
+
+git add .  ("git add tudo")
+git commit -m "mensagem"
+git push heroku master
+
+feito isso, aguarde novamente um tempo e de um refresh na sua pagina
